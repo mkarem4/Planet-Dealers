@@ -1,0 +1,35 @@
+categories : id,deleted(0,1),status(active,suspended),type(main,sub,sec),parent_id,ar_name,en_name,image,thumb_image
+
+variations : id,status(active,suspended),deleted(0,1),ar_name,en_name
+variation_options : id,deleted(0,1),status(active,suspended),parent_id,ar_name,en_name
+countries : id,deleted(0,1),status(active,suspended),parent_id,ar_name,en_name,ar_currency,en_currency,tax_percentage
+admins : id,deleted(0,1),status(active,suspended),permissions,name,email,phone,password,image
+packs : id,deleted(0,1),status(active,suspended),ar_name,en_name,price,image
+payment_methods : id,status(active,suspended),ar_name,en_name,desc
+
+banks : id,deleted(0,1),status(active,suspended),ar_name,en_name,ar_desc,en_desc
+
+
+users : id,deleted(0,1),jwt,type(seller,buyer),status(active,suspended),country_id,city_id,first_name,en_name,company_name(nullable),email,phone,password,image
+tokens : id,user_id,token
+addresses : id,deleted(0,1),city_id,user_id,type(main,sec),text,type,number,close_to,notes
+
+subscriptions : id,pack_id,user_id,expire_at
+bank_transferse : id,deleted(0,1),deleted_by,status(pending,active,declined),changed_by,bank_id,user_id,amount,user_notes,admin_notes,image
+payment_transactions : id,code,platform,status(processing,completed,canceled,declined),by,user_id,amount,data
+
+products : id,deleted(0,1),status(active,suspended,blocked),type(static,variable),seller_id,ar_name,en_name,ar_desc,en_desc,ar_special,en_special,main_cat_id,sub_cat_id,sec_cat_id,image_thumb_image
+,rate(default 0),views(default 0),sold(default 0),discount(0,1)
+product_images : id,product_id,image
+product_rates : id,product_id,user_id,text
+favorites : id,user_id,product_id
+carts : id,user_id,product_id,count
+orders : id,deleted(0,1),code,status(pending,processing,delivered,canclced),payment_id,transaction_id,seller_id,buyer_id,items,items_count,deliver_fee,tax_fee,total_fee
+
+
+notifications : id,user_id,type(order,global),action_id(nullable),ar_text,en_text
+messages : id,seen(0,1),sender_id,target_id,text
+sliders : id,status(active,suspended),image
+contact_us: id,closed(0,1),type(suggestion,complaint),name,email,phone,text
+abouts : id,ar_text,en_text
+terms : id,ar_text,en_text

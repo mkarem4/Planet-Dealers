@@ -1,0 +1,105 @@
+/*.thumbnail*/
+/*{*/
+/*    width: 165px !important;*/
+/*    height: 154px !important;*/
+/*}*/
+
+/*.no_cart*/
+/*{*/
+/*    color: #efecec !important;*/
+/*    background-color: #efecec !important;*/
+/*}*/
+
+.added_cart
+{
+    background-color: #f96814 !important;
+}
+
+
+.add_to_wishlist
+{
+    text-align: center;
+}
+
+
+.message-time-ar-side
+{
+    color: dimgray;
+    float: left;
+    margin-bottom: 10px;
+}
+
+
+.message-time-ar
+{
+    color: dimgray;
+    float: left;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+.message-time-en-side
+{
+    color: dimgray;
+    float: right;
+    padding-bottom: 10px;
+}
+
+
+.message-time-en
+{
+    color: dimgray;
+    float: right;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+.counter
+{
+    width: 5px;
+    height: 5px;
+    border-radius: 360px;
+    color: white;
+    background-color: darkred;
+}
+
+
+.pagination-ar
+{
+    float: left;
+    margin: 5px;
+}
+
+
+.pagination-en
+{
+    float: right;
+    margin: 5px;
+}
+
+
+.side_text
+{
+    color: red !important;
+    size: 10px !important;
+}
+
+.out-stock
+{
+    border: 1px solid red !important;
+    color: red !important;
+}
+
+
+.out-stock-no-box
+{
+    color: red !important;
+}
+
+
+.rate-stars
+{
+    color: gold !important;
+}

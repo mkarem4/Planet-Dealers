@@ -1,0 +1,212 @@
+.bootstrap-select.open.form-control:not([class*="span"])
+{
+
+    width: 100% !important;
+    z-index: 99999999999999 !important;
+}
+
+.image_radius
+{
+    height: 50px;
+    width: 50px;
+    border: 1px solid #29B2E1;
+    border-radius: 100px;
+    box-shadow: 2px 2px 2px darkcyan;
+}
+
+.table-image
+{
+    width: 180px!important;
+    height: 90px!important;
+    padding: 2px;
+}
+
+
+.product-table-image
+{
+    width: 150px!important;
+    height: 150px!important;
+    padding: 2px;
+}
+
+
+.table-image-radius
+{
+    width: 40px!important;
+    height: 40px!important;
+    border-radius: 360px;
+    padding: 2px;
+}
+
+
+.img-thumbnail
+{
+    border-radius: 360px;
+}
+
+.switch_en
+{
+    direction: rtl !important;
+}
+
+.switch_ar
+{
+    direction: ltr !important;
+}
+
+
+.text-en
+{
+    text-align: left !important;
+}
+
+.text-ar
+{
+    text-align: right !important;
+}
+
+
+.input-file
+{
+    display: none !important;
+}
+
+.input-files
+{
+    display: none !important;
+}
+
+.heading-ar > a
+{
+    float: left;
+    margin-right: 3px;
+}
+
+.heading-en > a
+{
+    float: right;
+    margin-left: 3px;
+}
+
+
+@media (min-width: 992px)
+{
+    .index-widget
+    {
+        display: flex !important;
+        justify-content: center !important;
+    }
+}
+.alert-text
+{
+    display: none;
+}
+
+.pagination-ar
+{
+    padding-right: 0;
+}
+
+.pagination-ar > li> a
+{
+    float: right;
+}
+
+.pagination-ar > li:first-child >a
+{
+    margin-left: 3px;
+}
+
+.pagination-en > li > a
+{
+    float: left;
+}
+
+.pagination-en > li :first-child > a
+{
+    margin-left: 3px;
+}
+
+.mt-2
+{
+    margin-top: 12px;
+}
+
+.blueimp-gallery>.slides>.slide-loading{background:url(../img/blueimp/loading.gif) center no-repeat;background-size:64px 64px;}
+
+.gallery-item-right
+{
+    float: right;
+}
+
+.gallery-item-left
+{
+    float: left;
+}
+
+.switch-margin
+{
+    margin: 0px 10px 0px 10px;
+}
+
+
+.cursor
+{
+    cursor : pointer;
+}
+
+
+.fa-small
+{
+    font-size: 50px !important;
+}
+
+
+#search_map_input
+{
+    opacity: 0;
+    text-align: center;
+    width: 200px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+
+.indent
+{
+    /*text-indent: calc(100% + 15px);*/
+    text-indent: 15px;
+}
+
+
+.indent_
+{
+    text-indent: calc(100% + 15px);
+    /*text-indent: 15px;*/
+}
+
+
+.buttons-ar
+{
+    direction: rtl !important;
+}
+
+
+.buttons-en
+{
+    direction: ltr !important;
+}
+
+
+.currency-ar
+{
+    float: left;
+    padding: 0px 5px 0px 5px;
+}
+
+
+.currency-en
+{
+    float: right;
+    padding: 0px 5px 0px 5px;
+}
